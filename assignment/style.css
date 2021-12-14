@@ -1,0 +1,116 @@
+/**********Css for main heading*******/
+h1{
+	text-align: center;
+}
+/**********ceating box*******/
+section
+{
+    margin: 13px;
+    border: 3px solid black;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    position: relative;
+    float: left;
+    clear: right;
+}
+/**********inside box heading*******/
+h5{
+	margin: 0px;
+    border: 3px solid black;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    position: relative;
+    float: right;
+    top: -1px;
+    right: -1px;
+
+    width: 75px;
+    height: 19px;
+
+    text-align: center;
+}
+/**********para in box*******/
+p{
+    margin: 0px;
+    border: 0px;
+    padding: 19px;
+
+    position: relative;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+/********Note we created diff section as we will need in @media query*******/
+#Section1
+{
+    background-color: gray;
+}
+#Heading1
+{
+    background-color:#c6538c;
+}
+
+
+#Section2
+{
+    background-color:gray;
+}
+#Heading2
+{
+    background-color:#990000;
+}
+
+
+#Section3
+{
+    background-color:gray;
+}
+#Heading3
+{
+    background-color:#ffd24d;
+}
+
+
+
+@media (min-width: 992px)
+{
+    #Section1, #Section2, #Section3
+    {
+        width: 30.20%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #Section1, #Section2
+    {
+        width: 45.45913%
+    }
+    #Section3
+    {
+        width: 93.94550%;
+    }
+}
+
+
+@media (max-width: 767px)
+{
+    #Section1, #Section2, #Section3
+    {
+        width: 92.94550%;
+    }
+}
+body
+{
+    margin: 0px;
+    border: 0px;
+    padding: 15px;
+
+    box-sizing: border-box;   
+}
